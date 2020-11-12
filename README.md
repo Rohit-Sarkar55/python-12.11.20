@@ -63,3 +63,22 @@ def switch(x):
 3.The last step is to simply create a function which will take as input an integer and will automatically invoke the corresponding function after the dictionary lookup.
 def switch(x):
   [return switch_case.get(x, default)()]
+
+
+
+B
+a=0
+b=1
+c=0
+n=input("Enter the upper range of the series:")	
+	while(c<=n):
+	c=a+b
+	a=b
+	b=c
+	d=a+b
+	x=c+1
+	for x in range d:
+		if(x<=n):
+		print(x)
+		else:
+		break
